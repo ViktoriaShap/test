@@ -38,7 +38,7 @@ console.log(titleProject);
 function getServicePercentPrices() {
     return fullPrice - (fullPrice * percentage / 100);
 }
-let servicePercentPrice = getServicePercentPrices(fullPrice);
+let servicePercentPrice = getServicePercentPrices();
 console.log('Итоговая сумма за вычетом процента подрядчика:', servicePercentPrice);
 
 function getRollbackMessage(totalPrice) {
